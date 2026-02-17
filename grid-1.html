@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="device-width, initial-scale=1.0">
+        <title>Grid Layout Example</title>
+        <style>
+            *{
+            margin:0;
+            padding:0;
+            box-sizing: border-box;
+            
+        }
+        .container{
+            width: 100vw;
+            height: 100vh;
+            background-color: white;
+            display: grid;
+            grid-template-areas: "a1 a2 a2 a2 a2 a2 a2 a2 a2 a2 a2 a2"
+                "a3 a3 a4 a4 a4 a4 a4 a4 a4 a4 a4 a4"
+                "a5 a5 a5 a6 a6 a6 a6 a6 a6 a6 a6 a6"
+                "a7 a7 a7 a7 a8 a8 a8 a8 a8 a8 a8 a8"
+                "a9 a9 a9 a9 a9 a10 a10 a10 a10 a10 a10 a10"
+                "a11 a11 a11 a11 a11 a11 a12 a12 a12 a12 a12 a12"
+                "a13 a13 a13 a13 a13 a13 a13 a14 a14 a14 a14 a14"
+                "a15 a15 a15 a15 a15 a15 a15 a15 a16 a16 a16 a16"   
+                "a17 a17 a17 a17 a17 a17 a17 a17 a17 a18 a18 a18"
+                "a19 a19 a19 a19 a19 a19 a19 a19 a19 a19 a20 a20"
+                "a21 a21 a21 a21 a21 a21 a21 a21 a21 a21 a21 a22";
+            gap: 10px;
+            padding: 10px;
+        }
+        .child{
+            background-color: rgb(237, 151, 66);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-size: 20px;
+        }
+        .child-1{
+            grid-area: a1;
+        }
+        .child-2{
+            grid-area: a2;
+        }
+        .child-3{
+            grid-area: a3;
+        }
+        .child-4{
+            grid-area: a4;
+        }
+        .child-5{
+            grid-area: a5;
+        }
+        .child-6{
+            grid-area: a6;
+        }
+        .child-7{
+            grid-area: a7;
+        }
+        .child-8{
+            grid-area: a8;
+        }
+        .child-9{
+            grid-area: a9;
+        }
+        .child-10{
+            grid-area: a10;
+        }
+        .child-11{
+            grid-area: a11;
+        }
+        .child-12{
+            grid-area: a12;
+        }
+        .child-13{
+            grid-area: a13;
+        }
+        .child-14{
+            grid-area: a14;
+        }
+        .child-15{
+            grid-area: a15;
+        }
+        .child-16{
+            grid-area: a16;
+        }
+        .child-17{
+            grid-area: a17;
+        }
+        .child-18{
+            grid-area: a18;
+        }
+        .child-19{
+            grid-area: a19;
+        }
+        .child-20{
+            grid-area: a20;
+        }
+        .child-21{
+            grid-area: a21;
+        }
+        .child-22{
+            grid-area: a22;
+        }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="child child-1">1</div>
+            <div class="child child-2">2</div>
+            <div class="child child-3">3</div>
+            <div class="child child-4">4</div>
+            <div class="child child-5">5</div>
+            <div class="child child-6">6</div>
+            <div class="child child-7">7</div>
+            <div class="child child-8">8</div>
+            <div class="child child-9">9</div>
+            <div class="child child-10">10</div>
+            <div class="child child-11">11</div>
+            <div class="child child-12">12</div>
+            <div class="child child-13">13</div>
+            <div class="child child-14">14</div>
+            <div class="child child-15">15</div>
+            <div class="child child-16">16</div>
+            <div class="child child-17">17</div>
+            <div class="child child-18">18</div>
+            <div class="child child-19">19</div>
+            <div class="child child-20">20</div>
+            <div class="child child-21">21</div>
+            <div class="child child-22">22</div>
+        </div>
+    </body>
+
+</html>
