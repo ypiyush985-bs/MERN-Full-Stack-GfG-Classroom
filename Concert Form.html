@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="device-width, initial-scale=1.0">
+    <title>College Fest</title>
+</head>
+<body>
+    
+    <header>
+        <h1><center>Neon Nights</center></h1>
+        <figure>
+            <img src="https://img.freepik.com/free-photo/view-futuristic-concert_23-2151072985.jpg?semt=ais_se_enriched&w=740&q=80" 
+            alt="A brightly lit outdoor stage with a massive crowd and fireworks"
+            width="600">
+            <figcaption>Experience the pulse of music at the JLN Arena.</figcaption>
+        </figure>
+    </header>
+
+    <hr>
+
+    <main>
+        <section>
+            <h2>Event Information</h2>
+            <p>
+                <strong>Date:</strong> February 7, 2026 <br>
+                <strong>Time:</strong> 6:00 P.M. <br>
+                <strong>Venue:</strong> JLM Stadium, Delhi
+            </p>
+
+            <article>
+                <h3>About the Event</h3>
+                <p>
+                    Neon Nights is an annual celebration of cultural diversity and musical innovation. 
+                    This year's lineup features award-winning artists from five states, 
+                    blending traditional instruments with modern electronic soundscapes
+                </p>
+
+            </article>
+        </section>
+
+        <hr>
+
+       <section id="registration">
+        <h2>Ticket Registration</h2>
+        <p>Please complete the following details to register for your entry pass. <i>Note: All fields marked with (*) are mandatory.</i></p>
+
+        <form action="submit-form" method="get" enctype="multipart/form-data">
+
+            <fieldset>
+                <legend>Contact Information</legend>
+
+                <p>
+                    <label for="full-name">Full Name:*</label><br>
+                    <input type="text" id="full-name" name="full-name"
+                    placeholder="Enter Full Name">    
+                </p>
+                <p>
+                    <label for="email-add">Email:*</label><br>
+                    <input type="email" id="email-add" name="email-add"
+                    placeholder="Enter Email Address">    
+                </p>
+                <p>
+                    <label for="phone-num">Mobile Number:*</label><br>
+                    <input type="tel" id="phone-num" name="phone-num"
+                    placeholder="Enter Full Name">    
+                </p>
+
+            </fieldset>
+
+            <br>
+
+            <fieldset>
+                <legend>Verification</legend>
+
+                <p>
+                    <label for="id-file">Upload Photo Id for age Verification:*</label><br>
+                    <input type="file" id="id-file" name="identity-doc"
+            
+                </p>
+
+                <p>
+                    <input type="checkbox">
+                    <label for="checkbox">I confirm that I am over 18 and agree to the festival terms *</label>
+
+                </p>
+            </fieldset>
+
+            <br>
+
+            <div>
+                <input type="submit">
+            </div>
+        </form>
+
+    </main>
+</body>
+</html>
